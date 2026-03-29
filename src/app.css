@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+:root {
+    --bg: #13151a;
+    --bg-nav: #181a20;
+    --border: #e8eaed;
+    --border-dark: #646566;
+    --title: #E8EAED;
+    --sub-title: #DDE0E4;
+    --description: #98A2AE;
+    --primary: #9c6cff;
+}
