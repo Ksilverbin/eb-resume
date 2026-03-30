@@ -1,5 +1,4 @@
 <script lang="ts">
-import Header from '$lib/components/layout/Header.svelte';
 import Profile from '$lib/components/ui/Profile.svelte';
 import Experience from '$lib/components/ui/Experience.svelte';
 import Tag from '$lib/components/ui/Tag.svelte';
@@ -14,9 +13,8 @@ import Footer from '$lib/components/layout/Footer.svelte';
 let resume = resumeData as ResumeData;
 </script>
 
-<div class="min-h-screen bg-(--bg) text-(--sub-title) font-sans antialiased whitespace-pre-line">
-	<Header />
-	<div class="px-6 py-16 md:max-w-4xl md:mx-auto md:px-0">
+<div class="min-h-screen bg-(--color-bg-primary) text-(--color-text-secondary) font-sans antialiased whitespace-pre-line">
+	<div class="px-6 py-16 max-w-4xl mx-auto">
 		<Profile {...resume} />
 		<Section title="Experience">
 			<div class="space-y-8">

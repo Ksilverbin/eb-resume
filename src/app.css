@@ -1,12 +1,16 @@
 @import "tailwindcss";
 
 :root {
-    --bg: #13151a;
-    --bg-nav: #181a20;
-    --border: #e8eaed;
-    --border-dark: #646566;
-    --title: #E8EAED;
-    --sub-title: #DDE0E4;
-    --description: #98A2AE;
-    --primary: #9c6cff;
+    /* background */
+    --color-bg-primary: #13151a;
+    --color-bg-secondary: #181a20;
+
+    /* border */
+    --color-border-default: #e8eaed;
+    --color-border-muted: #646566;
+
+    /* text*/
+    --color-text-primary: #E8EAED;
+    --color-text-secondary: #DDE0E4;
+    --color-text-muted: #98A2AE;
 }

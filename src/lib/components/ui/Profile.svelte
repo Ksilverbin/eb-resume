@@ -9,8 +9,8 @@ let { name, title, contact, headline, introduce }: Profile = $props();
 
 <Section>
 	<h1 class="text-4xl font-bold">{name}</h1>
-	<p class="text-xl text-(--description) mt-2">{title}</p>
-	<div class="mt-4 flex gap-4 text-sm text-(--sub-title)">
+	<p class="text-xl text-(--color-text-muted) mt-2">{title}</p>
+	<div class="mt-4 flex gap-4 text-sm text-(--color-text-secondary)">
 		<a href="mailto:{contact.email}" class="hover:underline">Email</a>
 		<a href="https://{contact.github}" target="_blank" class="hover:underline">GitHub</a>
 	</div>

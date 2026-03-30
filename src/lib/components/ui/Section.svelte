@@ -9,7 +9,7 @@ interface Props {
 let { children, title }: Props = $props();
 </script>
 
-<section class="border-b border-(--border-dark) pb-10 mb-12 last:border-b-0 last:pb-0 last:mb-0">
+<section class="border-b border-(--color-border-muted) pb-10 mb-12 last:border-b-0 last:pb-0 last:mb-0">
 	{#if title}
 		<h2 class="text-4xl font-semibold mb-10">{title}</h2>
 	{/if}

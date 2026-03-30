@@ -8,13 +8,13 @@ let { title, company, period, description, tags, introduce }: Project = $props()
 
 </script>
 
-<div class="relative pl-6 border-l border-(--border)">
+<div class="relative pl-6 border-l border-(--color-border-default)">
 	<div class="flex flex-col gap-3 md:flex-row md:justify-between items-start mb-1">
 		<h3 class="text-2xl font-bold order-2 md:order-1">
 			{title}
-			<small class="text-(--description) text-sm font-normal">{company}</small>
+			<small class="text-(--color-text-muted) text-sm font-normal whitespace-nowrap">{company}</small>
 		</h3>
-		<span class="text-sm text-(--description) font-mono order-1 md:order-2">{period}</span>
+		<span class="text-sm text-(--color-text-muted) font-mono order-1 md:order-2">{period}</span>
 	</div>
 	<p class="leading-relaxed mb-4">{description}</p>
 	<div class="flex flex-wrap gap-2 mb-4">
